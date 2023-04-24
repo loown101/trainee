@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 930px;
+  margin: auto;
+}
+
+.imageContainer {
+  column-count: 3;
+
+  width: 100%;
+
+  gap: 10px
+}
+
+
+.toolbar {
+  box-sizing: border-box;
+
+  padding: 30px 0px 30px 0px;
+}
+
+.img {
+  page-break-inside: avoid;
+  break-inside: avoid;
+
+  object-fit: cover;
+
+  width: 300px;
+
+  margin-bottom: 10px;
+}
+
+.btn {
+  box-sizing: border-box;
+
+  background-color: rgb(128, 128, 128);
+
+  border: 1px solid black;
+
+  padding: 5px 15px;
+  margin-right: 10px;
+
+  cursor: pointer;
+
+
+}
+
+.inactive_btn {
+  background-color: rgba(128, 128, 128, 0.123);
+}
+
+.active_btn {
+  background-color: rgb(128, 128, 128);
+
+  color: white;
+}
