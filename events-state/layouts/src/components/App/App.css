@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.cardContainer {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.listContainer {
+  display: flex;
+}
+
+.card {
+  border: 1px solid black;
+
+  width: 400px;
+}
